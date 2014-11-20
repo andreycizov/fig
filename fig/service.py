@@ -26,7 +26,7 @@ DOCKER_CONFIG_HINTS = {
     'workdir'   : 'working_dir',
 }
 
-VALID_NAME_CHARS = '[a-zA-Z0-9]'
+VALID_NAME_CHARS = r'[a-zA-Z\_\-0-9]'
 
 
 class BuildError(Exception):
